@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +28,21 @@
 .App-link {
   color: #61dafb;
 }
+
+.ui.cards> .card >.image {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+
+.ui.cards> .card >.image img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
